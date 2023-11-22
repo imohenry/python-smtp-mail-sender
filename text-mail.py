@@ -1,11 +1,11 @@
 import smtplib
 import getpass
 
-HOST = "smtp.mail.yahoo.com"
+HOST = "<your smtp host>"
 PORT = 587
 
-FROM_EMAIL = "henry_imoh@yahoo.com"
-TO_EMAIL = "henryimoh2@gmail.com"
+FROM_EMAIL = "<sender's mail>"
+TO_EMAIL = "<receiver's mail>"
 PASSWORD = getpass.getpass("Enter password: ")
 
 MESSAGE = """Subject: test mail pls
