@@ -1,4 +1,4 @@
-# python-smptp-mail-sender
+# python-smtp-mail-sender
 
 This pyhton mail sender uses the Python SMTP library to send mail to your preferred email address.
 
